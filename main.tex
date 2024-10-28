@@ -1,0 +1,92 @@
+\documentclass[a4paper, 12pt, twocolumn]{article}
+\usepackage[utf8]{inputenc}
+% \DeclareUnicodeCharacter{2217}{*}
+\usepackage{apacite}
+\usepackage{hyperref}
+\usepackage{amsmath, graphicx}
+\usepackage{lipsum}
+\usepackage{abstract}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{mathptmx} %times new roman font in pdfLaTeX
+\usepackage{amsfonts}
+\usepackage{times}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{natbib}
+\usepackage{tabularx}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{adjustbox}
+\usepackage{caption}
+\usepackage{authblk}
+
+\usepackage{fontspec}
+\setmainfont{Times New Roman} 
+
+\title{Characterization of Atmospheric Pressure Circular Dielectric Barrier Discharge via lectrical and Optical Methods}
+
+\author[1, *]{\href{https://dev.jsdhami.com.np}{Janak Singh Dhami}}
+\author[1, 2]{Manish Pandey}
+\author[3]{Abhinav Thakur}
+
+
+\affil[1]{\textit{Department of Physics, Tri-Chandra Multiple Campus, Kathmandu, Nepal}}
+\affil[2]{\textit{Department of Physics, St. Xaiver's College, Maitighar, Kathmandu, Nepal}}
+\affil[3]{\textit{Department of Physics, Patan Multiple Campus, Lalitpur Nepal}}
+\date{}
+\pagestyle{fancy}
+
+\lhead{}
+\chead{\textit{Janak S. Dhami et al./ BIBECHANA 21 (2024) 195-212}}
+\rhead{\thepage}
+
+% footer
+\cfoot{}
+\lfoot{}
+\rfoot{}
+
+
+\begin{document}
+\twocolumn[
+\begin{@twocolumnfalse}
+\maketitle 
+\onehalfspacing
+
+\begin{center}
+    \text{*Corresponding author Email: \href{mailto:janak.795401@trc.tu.edu.np}{janak.795401@trc.tu.edu.np}}
+\end{center}
+
+\begin{abstract}
+\noindent 
+\input{abstract}
+\noindent
+\textbf{\textit{Keywords: Plasma Physics, Research, Template, Research, Workshop \\ \\}} 
+\end{abstract}
+
+\end{@twocolumnfalse}
+]
+
+\section{Introduction}
+\input{sections/introduction}
+
+\section{Materials and Methods}
+\input{sections/Materials and Methods}
+
+\section{Results}
+\input{sections/results}
+
+\section{Conclusion}
+\input{sections/conclusions}
+
+
+% single column in twocolumn page
+\twocolumn[
+    \begin{@twocolumnfalse}
+        \bibliographystyle{apacite}
+        \bibliography{references}
+    \end{@twocolumnfalse}
+]
+
+\end{document}
