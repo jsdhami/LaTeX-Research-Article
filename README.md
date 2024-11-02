@@ -1,1 +1,1 @@
-"# LaTeX-Research-Article" 
+# LaTeX-Research-Article 
